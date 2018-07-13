@@ -40,6 +40,7 @@
             this.btn_Cashier.TabIndex = 0;
             this.btn_Cashier.Text = "Cashier";
             this.btn_Cashier.UseVisualStyleBackColor = true;
+            this.btn_Cashier.Click += new System.EventHandler(this.btn_Cashier_Click);
             // 
             // btn_Warehouse
             // 
@@ -49,6 +50,7 @@
             this.btn_Warehouse.TabIndex = 1;
             this.btn_Warehouse.Text = "Warehouse";
             this.btn_Warehouse.UseVisualStyleBackColor = true;
+            this.btn_Warehouse.Click += new System.EventHandler(this.btn_Warehouse_Click);
             // 
             // MainForm
             // 

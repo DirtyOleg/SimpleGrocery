@@ -16,5 +16,22 @@ namespace MainForm
         {
             InitializeComponent();
         }
+
+        private void btn_Cashier_Click(object sender, EventArgs e)
+        {
+            //CashierForm cashierFrm = new CashierForm();
+            CashierForm cashierFrm = CashierForm.GetInstance(this);
+
+            cashierFrm.Show();
+            this.Hide();
+        }
+
+        private void btn_Warehouse_Click(object sender, EventArgs e)
+        {
+            WarehouseFrom warehouseFrm = WarehouseFrom.GetInstance(this);
+
+            warehouseFrm.Show();
+            this.Hide();
+        }
     }
 }
